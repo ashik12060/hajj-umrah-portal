@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,13 +24,13 @@ function Header() {
           </button>
         </div>
         <nav className={`lg:flex md:flex ${isMenuOpen ? 'block' : 'hidden'} flex-wrap justify-center items-center w-full lg:w-auto`}>
-          <a href="/" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Home</a>
-          <a href="/hajj" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Packages</a>
-          <a href="/umrah" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Umrah Packages</a>
-          <a href="/services" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Services</a>
-          <a href="/training" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Training</a>
+          <Link to="/" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Home</Link>
+          <Link to='/hajj-packages' className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Packages</Link>
+          <Link href="/umrah" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Umrah Packages</Link>
+          <Link href="/services" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Services</Link>
+          <Link href="/training" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Training</Link>
          
-          <a href="/contact" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Contact</a>
+          <Link href="/contact" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Contact</Link>
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block">Get Free Estimate</button>
           
         </nav>

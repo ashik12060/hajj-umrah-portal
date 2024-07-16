@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import './Carousel.css'; // Add this for custom CSS
 import image1 from '../../images/cover.jpg';
 
+
+
 const images = [
   { id: 1, src: image1, alt: 'Image 1', text: 'Text Overlay 1' },
   { id: 2, src: image1, alt: 'Image 2', text: 'Text Overlay 2' },
   { id: 3, src: image1, alt: 'Image 3', text: 'Text Overlay 3' },
 ];
+
+
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
