@@ -1,0 +1,10 @@
+.whitespace-nowrap {
+    white-space: nowrap;
+  }
+  
+  .transition-transform {
+    transition: transform 0.5s ease-in-out;
+  }
+  .caro-img{
+    height: 450px;
+  }
