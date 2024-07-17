@@ -30,7 +30,7 @@ function Header() {
           <Link href="/services" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Services</Link>
           <Link href="/training" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Training</Link>
          
-          <Link href="/contact" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Contact</Link>
+          <Link to="/contact" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Contact</Link>
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block">Get Free Estimate</button>
           
         </nav>
