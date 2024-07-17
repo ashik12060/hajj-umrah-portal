@@ -1,12 +1,14 @@
 import React from "react";
-import "./Packages.css";
+import "./UmrahPackage.css";
 import cardImage1 from "../../images/cover.jpg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
-const Packages = () => {
+const UmrahPackage = () => {
   return (
     <>
-   
+    
       <div class="container mx-auto p-4">
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
@@ -18,7 +20,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -45,7 +47,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -72,7 +74,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -99,7 +101,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -126,7 +128,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -153,7 +155,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -180,7 +182,7 @@ const Packages = () => {
               />
               <div class="p-4">
                 <h3 class="text-xl font-bold text-gray-800">
-                  Regular Hajj Packages
+                  Regular Umrah Packages
                 </h3>
                 <p class="text-gray-600 text-sm">
                   Explore the spiritual journey with our Regular Hajj Package,
@@ -200,8 +202,9 @@ const Packages = () => {
           {/* <!-- Repeat the above code for the remaining 7 cards, updating the image and content for each --> */}
         </div>
       </div>
+      
     </>
   );
 };
 
-export default Packages;
+export default UmrahPackage;

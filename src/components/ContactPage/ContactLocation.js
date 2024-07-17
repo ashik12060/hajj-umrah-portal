@@ -14,15 +14,15 @@ import React from "react";
 
 const ContactLocation = () => {
   return (
-    <div className=" p-4">
+    <div className="p-4 mt-20">
       
       <div class="text-center">
-        <span className="bg-orange-500 text-white px-4 py-2 text-2xl rounded">Our Location</span>
+        <span className="px-4 py-2 text-4xl font-bold rounded">Our Location</span>
       </div>
 
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 p-4">
-          <span className="text-xl px-2 py-2  bg-orange-500 text-white">
+          <span className="text-xl px-1 py-1  bg-orange-500 text-white rounded">
             Find Us Here <FontAwesomeIcon icon={faTurnDown} />
           </span>
           <div className="mt-2">

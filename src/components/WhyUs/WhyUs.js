@@ -5,7 +5,7 @@ function WhyUs() {
     <div className="container mx-auto px-4 py-16">
       <h2 className="text-3xl font-bold text-center mb-8">Why Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="bg-slate-200 rounded-lg shadow-md p-6">
           <div className="flex items-center justify-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ function WhyUs() {
             of Allah as an honor.
           </p>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="bg-slate-200 rounded-lg shadow-md p-6">
           <div className="flex items-center justify-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ function WhyUs() {
             their budget.
           </p>
         </div>
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="bg-slate-200 rounded-lg shadow-md p-6">
           <div className="flex items-center justify-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"

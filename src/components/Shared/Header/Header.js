@@ -26,12 +26,12 @@ function Header() {
         <nav className={`lg:flex md:flex ${isMenuOpen ? 'block' : 'hidden'} flex-wrap justify-center items-center w-full lg:w-auto`}>
           <Link to="/" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Home</Link>
           <Link to='/hajj-packages' className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Packages</Link>
-          <Link href="/umrah" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Umrah Packages</Link>
-          <Link href="/services" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Services</Link>
-          <Link href="/training" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Training</Link>
+          <Link to="/umrah-packages" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Umrah Packages</Link>
+          <Link to="/services" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Services</Link>
+          <Link to="/training" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Hajj Training</Link>
          
           <Link to="/contact" className="text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block">Contact</Link>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block">Get Free Estimate</button>
+          <Link to='/contact' className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block">Get Free Estimate</Link>
           
         </nav>
       </div>
