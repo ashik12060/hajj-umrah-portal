@@ -25,7 +25,7 @@ const Home = () => {
           </div>
           <Packages />
           <div className='text-center'>
-          <Link to='/umrah-packages' className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block ">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+          <Link to='/hajj-packages' className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block ">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
           </div>
         </div>
 

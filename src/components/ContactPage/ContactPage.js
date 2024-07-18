@@ -30,24 +30,26 @@ const ContactPage = () => {
   };
   return (
     <div>
-        <div>
-      
+      <div>
         <div class="text-center my-8">
-        <span className="px-4 py-2 text-4xl font-bold rounded  ">Contact Us</span>
-      </div>
+          <span className="px-4 py-2 text-4xl font-bold rounded  ">
+            Contact Us
+          </span>
+        </div>
 
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
             <img className="w-full rounded" src={img} alt="Contact" />
           </div>
           <div className="w-full lg:w-1/2 p-4 lg:ps-20">
-          
             <form
               onSubmit={handleSubmit}
               className="bg-slate-200 shadow-md rounded px-4 pt-6 pb-8 mb-4"
             >
-              <p className="text-xl mb-4 font-bold">Please provide a detailed query</p>
-            
+              <p className="text-xl mb-4 font-bold">
+                Please provide a detailed query
+              </p>
+
               <div className="mb-4">
                 <label
                   className="block text-gray-700 text-sm font-bold mb-2"
@@ -119,14 +121,9 @@ const ContactPage = () => {
                   Submit
                 </button>
               </div>
-              
             </form>
-            
-            
           </div>
         </div>
-
-        
       </div>
     </div>
   );
