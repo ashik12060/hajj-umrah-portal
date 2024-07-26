@@ -3,18 +3,18 @@ import Header from '../../components/Shared/Header/Header'
 import Carousel from '../../components/Carousel/Carousel'
 import CardGrid from '../../components/CardGrid/CardGrid'
 import Footer from '../../components/Shared/Footer/Footer'
-import SmallHeader from '../../components/Shared/Header/SmallHeader'
 import WhyUs from '../../components/WhyUs/WhyUs'
 import Packages from '../../components/HajjPackagesInfo/Packages'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 import UmrahPackage from '../../components/UmrahPackage/UmrahPackage'
+import ContacatInfo from '../../components/ContactPage/ContacatInfo'
 
 const Home = () => {
   return (
     <div>
-      <SmallHeader />
+      
         <Header />
         <Carousel />
         <CardGrid />
@@ -25,7 +25,9 @@ const Home = () => {
           </div>
           <Packages />
           <div className='text-center'>
-          <Link to='/hajj-packages' className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block ">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+          <Link to='/hajj-packages' className="background-color hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full lg:mr-4 md:mr-2 mr-2 block lg:inline-block ">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+
+          
           </div>
         </div>
 
@@ -40,6 +42,7 @@ const Home = () => {
           </div>
         </div>
         <WhyUs />
+        <ContacatInfo />
         <Footer/>
        
     </div>

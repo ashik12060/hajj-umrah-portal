@@ -1,16 +1,21 @@
+import { faCircleNodes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const ContacatInfo = () => {
   return (
     <>
       <div className="bg-gray-800 text-white p-8 text-center">
+      <span><FontAwesomeIcon className="text-3xl text-orange-500" icon={faCircleNodes} /></span>
         <h1 className="text-4xl font-bold mb-4">
           Contact Hena Travels and Tours!
         </h1>
+        
         <p className="text-lg mb-8">
           Have an Idea or a Project, Let's Collaborate and Build Some Awesome
           Stuff
         </p>
+       
         <div className="flex justify-center gap-8">
           <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
             <span className="flex items-center gap-2">

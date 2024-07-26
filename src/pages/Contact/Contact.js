@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SmallHeader from "../../components/Shared/Header/SmallHeader";
 import Header from "../../components/Shared/Header/Header";
 
 import ContactPage from "../../components/ContactPage/ContactPage";
@@ -11,7 +10,7 @@ function Contact() {
 
   return (
     <div>
-      <SmallHeader />
+      
       <Header />
       <ContactPage />
       <ContactLocation />

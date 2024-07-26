@@ -5,7 +5,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import SmallHeader from "../../components/Shared/Header/SmallHeader";
 import Header from "../../components/Shared/Header/Header";
 import img from "../../images/cover.jpg";
 
