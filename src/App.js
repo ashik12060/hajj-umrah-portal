@@ -9,11 +9,13 @@ import UmrahPackages from './pages/UmrahPackages/UmrahPackages';
 import AirTicket from './pages/AirTicket/AirTicket';
 import VisaProcess from './pages/VisaProcess/VisaProcess';
 import AboutUs from './pages/AboutUs/AboutUs';
+import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTopButton />
       <Routes>
         <Route path='/' element={<Home />} ></Route>
         <Route path='/home' element={<Home />} ></Route>
