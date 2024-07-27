@@ -102,8 +102,10 @@ const VisaProcess = () => {
       </p>
     </div>
     <div className="text-center mb-10">
-    <Link to='/contact' className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block">Need Help <FontAwesomeIcon icon={faCircleQuestion} /></Link>
+    <Link to='/contact' className="bg-green-800 hover:bg-green-800 text-white font-bold py-4 my-6 px-4 rounded mt-auto">Need Help <FontAwesomeIcon icon={faCircleQuestion} /></Link>
+    
     </div>
+    
 
 <Footer />
     </div>

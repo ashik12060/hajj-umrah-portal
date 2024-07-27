@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 import UmrahPackage from '../../components/UmrahPackage/UmrahPackage'
 import ContacatInfo from '../../components/ContactPage/ContacatInfo'
+import AboutUsPage from '../../components/AboutUsPage/AboutUsPage'
 
 const Home = () => {
   return (
@@ -26,8 +27,8 @@ const Home = () => {
             </h1>
           </div>
           <Packages />
-          <div className='text-center'>
-          <Link to='/hajj-packages' className="background-color hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full lg:mr-4 md:mr-2 mr-2 block lg:inline-block ">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+          <div className='text-center mt-6'>
+          <Link to='/hajj-packages' className=" bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
 
           
           </div>
@@ -39,10 +40,11 @@ const Home = () => {
             </h1>
           </div>
           <UmrahPackage />
-          <div className='text-center'>
-          <Link to='/umrah-packages' className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block ">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+          <div className='text-center mt-6'>
+          <Link to='/umrah-packages' className="bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
           </div>
         </div>
+        <AboutUsPage />
         <WhyUs />
         <ContacatInfo />
         <Footer/>

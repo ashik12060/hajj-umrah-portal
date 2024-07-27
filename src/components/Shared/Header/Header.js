@@ -18,7 +18,7 @@ function Header() {
       <div className="container mx-auto py-4 flex flex-wrap justify-between items-center ">
         <div className="flex items-center w-full lg:w-auto">
           <h1 className="ml-4 text-2xl lg:text-3xl md:text-xl font-bold">
-            ZAM ZAM
+          Hena Travels and Tours
           </h1>
         </div>
 
@@ -143,7 +143,7 @@ function Header() {
           >
             Contact
           </Link>
-          <Link className="background-color mx-auto ms-3 hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full text-center lg:mr-4 md:mr-2 mr-2 block lg:inline-block">
+          <Link to='/contact' className="background-color  ms-3 border hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full text-center ">
             Price Estimate
           </Link>
         </nav>

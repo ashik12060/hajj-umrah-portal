@@ -11,7 +11,7 @@ const HajjPackages = () => {
     <div className='pt-20'>
     <PackageCover />
     </div>
-    <h2 className="text-center text-4xl font-bold mt-6">Our Packages</h2>
+    <h2 className="text-center text-4xl font-bold mt-6">Our Hajj Packages</h2>
     <Packages />
     <Footer />
 

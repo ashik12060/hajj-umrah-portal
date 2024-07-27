@@ -114,11 +114,12 @@ const ContactPage = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-6 rounded lg:mr-4 md:mr-2 mr-2 block lg:inline-block"
+                  className=" bg-green-800 hover:bg-white  border hover:border-green-800 hover:text-green-800 text-white font-bold py-2 px-10 rounded-full text-center mt-4"
                   type="submit"
                 >
                   Submit
                 </button>
+               
               </div>
             </form>
           </div>

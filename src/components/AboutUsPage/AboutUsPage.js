@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../../images/cover.jpg";
+import { Link } from "react-router-dom";
 
 const AboutUsPage = () => {
   return (
@@ -22,9 +23,9 @@ const AboutUsPage = () => {
             possible short time. Noor Hajj & Umrah arranges for every type of
             accommodation in hotels around Mecca city.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <Link to='/about-us' className="bg-green-800 rounded-full px-14 py-4  text-white font-bold  lg:mr-4 md:mr-2 mr-2 block lg:inline-block">
             Read More About Us
-          </button>
+          </Link>
         </div>
         <div className="mt-4 p-6">
           <img src={aboutImg}  alt="Mecca" className="rounded-lg h-4/5 w-100 shadow-lg" />

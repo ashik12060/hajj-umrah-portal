@@ -11,7 +11,7 @@ const UmrahPackages = () => {
       <div className='pt-20' >
       <UmrahPackageCover/>
       </div>
-      <h2 className="text-center text-4xl font-bold mt-6">Our Packages</h2>
+      <h2 className="text-center text-4xl font-bold mt-6">Our Umrah Packages</h2>
       <UmrahPackage />
       <Footer />
       

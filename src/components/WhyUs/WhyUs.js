@@ -9,7 +9,7 @@ function WhyUs() {
           <div className="flex items-center justify-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-12 w-12 text-blue-500"
+              className="h-12 w-12 text-green-800"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -34,7 +34,7 @@ function WhyUs() {
           <div className="flex items-center justify-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-12 w-12 text-blue-500"
+              className="h-12 w-12 text-green-800"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -65,7 +65,7 @@ function WhyUs() {
           <div className="flex items-center justify-center mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-12 w-12 text-blue-500"
+              className="h-12 w-12 text-green-800"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

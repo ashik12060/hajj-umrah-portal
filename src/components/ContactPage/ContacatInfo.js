@@ -17,7 +17,7 @@ const ContacatInfo = () => {
         </p>
        
         <div className="flex justify-center gap-8">
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
             <span className="flex items-center gap-2">
               <svg
                 className="w-6 h-6"
@@ -36,7 +36,7 @@ const ContacatInfo = () => {
               CONTACT US
             </span>
           </button>
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+          <button className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
             <span className="flex items-center gap-2">
               <svg
                 className="w-6 h-6"
@@ -52,7 +52,7 @@ const ContacatInfo = () => {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 00-5.516 5.517l-1.13-2.257a1 1 0 01-1.21-.502l4.493-1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1.28a2 2 0 01-2-2V7z"
                 />
               </svg>
-              +8801712-510726
+              +8801317424004
             </span>
           </button>
         </div>

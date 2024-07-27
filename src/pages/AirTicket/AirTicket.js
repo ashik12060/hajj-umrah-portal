@@ -28,7 +28,7 @@ const AirTicket = () => {
             <h1 className="text-3xl font-bold mb-4 text-color-custom container mx-auto p-4">
               Affordable Air Ticket Booking for Pilgrims from Bangladesh
             </h1>
-            <p className="container mx-auto ps-4 text-justify">
+            <p className="container mx-auto ps-4 text-justify mb-6">
               Seeking affordable Hajj and Umrah air tickets for pilgrims from
               Bangladesh? Noor Hajj BD, an award-winning Hajj agency based in
               Dhaka, is your ideal choice. We offer a variety of packages to
@@ -38,7 +38,7 @@ const AirTicket = () => {
               team ensures the best travel experience by providing the cheapest
               air tickets for pilgrims traveling to Mecca and Medina.
             </p>
-            <Link className="background-color mx-auto ms-3 hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full text-center lg:mr-4 md:mr-2 mt-4 mr-2 block lg:inline-block">Price Estimate</Link>
+            <Link className="background-color ms-3 hover:bg-white border hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-4 px-5 rounded-full text-center mt-4">Price Estimate</Link>
           </div>
      
             <div className="w-full lg:w-1/2 lg:p-20 p-10">
