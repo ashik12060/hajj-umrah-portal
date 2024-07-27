@@ -10,11 +10,13 @@ import AirTicket from './pages/AirTicket/AirTicket';
 import VisaProcess from './pages/VisaProcess/VisaProcess';
 import AboutUs from './pages/AboutUs/AboutUs';
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton';
+import SocialMediaButton from './components/SocialMediaButton/SocialMediaButton';
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <SocialMediaButton />
       <ScrollToTopButton />
       <Routes>
         <Route path='/' element={<Home />} ></Route>
