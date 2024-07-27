@@ -16,7 +16,9 @@ const Home = () => {
     <div>
       
         <Header />
-        <Carousel />
+       <div className='pt-20'>
+       <Carousel/>
+       </div>
         <CardGrid />
         <div>
           <div className='mt-20'>

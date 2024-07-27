@@ -11,12 +11,14 @@ const AirTicket = () => {
   return (
     <div>
       <Header />
-      <div className="cover-photo-container">
+      <div className="pt-20">
+      <div className="cover-photo-container ">
         <img src={coverImage} alt="Cover" className="cover-image" />
         <div className="cover-text">
           <h1>AIR TICKET</h1>
           <p>Exclusive & Regular Umrah Packages from Bangladesh</p>
         </div>
+      </div>
       </div>
 
       <div>

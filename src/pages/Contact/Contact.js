@@ -4,6 +4,7 @@ import Header from "../../components/Shared/Header/Header";
 import ContactPage from "../../components/ContactPage/ContactPage";
 import Footer from "../../components/Shared/Footer/Footer";
 import ContactLocation from "../../components/ContactPage/ContactLocation";
+import ContactCover from "../../components/ContactPage/ContactCover";
 
 function Contact() {
   
@@ -12,6 +13,7 @@ function Contact() {
     <div>
       
       <Header />
+      <ContactCover />
       <ContactPage />
       <ContactLocation />
       <Footer />

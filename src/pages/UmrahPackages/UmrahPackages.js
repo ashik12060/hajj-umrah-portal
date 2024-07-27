@@ -7,8 +7,10 @@ import Footer from '../../components/Shared/Footer/Footer'
 const UmrahPackages = () => {
   return (
     <div>
-      <Header />
-      <UmrahPackageCover />
+      <Header /> 
+      <div className='pt-20' >
+      <UmrahPackageCover/>
+      </div>
       <h2 className="text-center text-4xl font-bold mt-6">Our Packages</h2>
       <UmrahPackage />
       <Footer />

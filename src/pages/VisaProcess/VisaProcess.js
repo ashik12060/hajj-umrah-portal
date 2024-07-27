@@ -20,12 +20,14 @@ const VisaProcess = () => {
   return (
     <div>
       <Header />
+      <div className="pt-20">
       <div className="cover-photo-container">
         <img src={coverImage} alt="Cover" className="cover-image" />
         <div className="cover-text">
           <h1>VISA PROCESSING</h1>
           <p>Exclusive & Regular Umrah Packages from Bangladesh</p>
         </div>
+      </div>
       </div>
 
       <h1 className="text-2xl font-bold mb-4 text-color-custom container mx-auto p-4">

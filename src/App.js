@@ -8,6 +8,7 @@ import Contact from './pages/Contact/Contact';
 import UmrahPackages from './pages/UmrahPackages/UmrahPackages';
 import AirTicket from './pages/AirTicket/AirTicket';
 import VisaProcess from './pages/VisaProcess/VisaProcess';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} ></Route>
         <Route path='/home' element={<Home />} ></Route>
+        <Route path='/about-us' element={<AboutUs />} ></Route>
         <Route path='/hajj-packages' element={<HajjPackages />} ></Route>
         <Route path='/umrah-packages' element={<UmrahPackages />} ></Route>
         <Route path='/air-ticket' element={<AirTicket />} ></Route>
