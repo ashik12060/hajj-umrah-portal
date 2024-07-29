@@ -14,19 +14,19 @@ import AboutUsPage from '../../components/AboutUsPage/AboutUsPage'
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       
         <Header />
-       <div className='pt-20'>
-       <Carousel/>
+       <div className='pt-20 overflow-hidden'>
+       <Carousel className='overflow-hidden'/>
        </div>
-        <CardGrid />
-        <div>
+        <CardGrid  className='overflow-hidden'/>
+        <div className='overflow-hidden'>
           <div className='mt-20'>
             <h1 className='text-center text-4xl font-bold'>BEST HAJJ PACKAGES FOR 2025-2026
             </h1>
           </div>
-          <Packages />
+          <Packages  className='overflow-hidden'/>
           <div className='text-center mt-6'>
           <Link to='/hajj-packages' className=" bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
 
@@ -34,20 +34,20 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className='overflow-hidden'>
           <div className='mt-20'>
             <h1 className='text-center text-4xl font-bold'>BEST UMRAH PACKAGES FOR 2025-2026
             </h1>
           </div>
-          <UmrahPackage />
+          <UmrahPackage  className='overflow-hidden'/>
           <div className='text-center mt-6'>
           <Link to='/umrah-packages' className="bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
           </div>
         </div>
-        <AboutUsPage />
-        <WhyUs />
-        <ContacatInfo />
-        <Footer/>
+        <AboutUsPage  className='overflow-hidden'/>
+        <WhyUs  className='overflow-hidden'/>
+        <ContacatInfo  className='overflow-hidden'/>
+        <Footer className='overflow-hidden' />
        
     </div>
   )

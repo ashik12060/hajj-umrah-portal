@@ -15,7 +15,7 @@ import SocialMediaButton from './components/SocialMediaButton/SocialMediaButton'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter >
       <SocialMediaButton />
       <ScrollToTopButton />
       <Routes>

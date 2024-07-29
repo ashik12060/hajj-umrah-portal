@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.special-text {
+  font-family: 'Playwrite CU', cursive;
+}
 .background-color{
     background-color: #198754;
 }

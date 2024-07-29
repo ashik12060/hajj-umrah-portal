@@ -14,15 +14,15 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0  bg-white shadow-md z-50 ">
-      <div className="container mx-auto py-4 flex flex-wrap justify-between items-center ">
+    <header className="fixed top-0 left-0 right-0  bg-white shadow-md z-50 overflow-hidden">
+      <div className="container mx-auto py-4 flex flex-wrap justify-between items-center overflow-hidden">
         <div className="flex items-center w-full lg:w-auto">
           <h1 className="ml-4 text-2xl lg:text-3xl md:text-xl font-bold">
           Hena Travels and Tours
           </h1>
         </div>
 
-        <div className="lg:hidden md:hidden flex w-full justify-end me-5">
+        <div className="lg:hidden md:hidden flex w-full justify-end me-5 overflow-hidden">
           <button
             onClick={toggleMenu}
             className="text-gray-600 hover:text-gray-900"
@@ -143,7 +143,7 @@ function Header() {
           >
             Contact
           </Link>
-          <Link to='/contact' className="background-color  ms-3 border hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full text-center ">
+          <Link to='/contact' className="background-color  lg:ms-3 border hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full text-center ">
             Price Estimate
           </Link>
         </nav>
