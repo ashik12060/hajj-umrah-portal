@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import henaTours from '../../../images/henaTours.jpeg'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,20 +11,22 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
-      <div className="container mx-auto py-4 flex flex-wrap justify-between items-center">
+      <div className="container mx-auto  flex flex-wrap justify-between items-center">
         <div className="flex items-center  w-full lg:w-auto">
           <h1 className="ml-4 text-2xl lg:text-3xl md:text-xl font-bold">
-            Hena Travels and Tours
+          <Link to='/'>
+            <img className="w-32" src={henaTours} alt="hena tours logo" />
+          </Link>
           </h1>
         </div>
 
-        <div className="lg:hidden md:hidden flex w-full justify-end  me-5 ">
+        <div className="lg:hidden md:hidden flex w-full justify-start items-center ms-5">
           <button
             onClick={toggleMenu}
-            className="bg-green-800 hover:bg-green-700 text-white hover:text-gray-200 "
+            className="bg-green-800 hover:bg-green-700 text-white hover:text-gray-200"
           >
             <svg
-              className="w-6 h-6 border"
+              className="w-6 h-6 border "
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

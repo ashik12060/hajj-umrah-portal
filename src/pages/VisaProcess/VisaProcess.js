@@ -1,6 +1,6 @@
 import React from "react";
 import "./VisaProcess.css"; // Import your CSS file for custom styling
-import coverImage from "../../images/cover.jpg"; // Replace with your actual image path
+import coverImage from "../../images//airCarousel.jpg"; // Replace with your actual image path
 import Header from "../../components/Shared/Header/Header";
 import Footer from "../../components/Shared/Footer/Footer";
 import { Link } from "react-router-dom";
@@ -24,8 +24,8 @@ const VisaProcess = () => {
       <div className="cover-photo-container">
         <img src={coverImage} alt="Cover" className="cover-image" />
         <div className="cover-text">
-          <h1>VISA PROCESSING</h1>
-          <p>Exclusive & Regular Umrah Packages from Bangladesh</p>
+          <h1  className='text-4xl'>VISA PROCESSING</h1>
+          <p  className='text-2xl'>Exclusive & Regular Umrah Packages from Bangladesh</p>
         </div>
       </div>
       </div>

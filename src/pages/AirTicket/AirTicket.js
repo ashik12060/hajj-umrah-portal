@@ -1,6 +1,6 @@
 import React from "react";
 import "./AirTicket.css";
-import coverImage from "../../images/cover.jpg";
+import coverImage from "../../images/airCarousel.jpg";
 import AirTicketBuy from "../../images/ait ticket buy.jpg";
 
 import Header from "../../components/Shared/Header/Header";
@@ -15,8 +15,8 @@ const AirTicket = () => {
       <div className="cover-photo-container ">
         <img src={coverImage} alt="Cover" className="cover-image" />
         <div className="cover-text">
-          <h1>AIR TICKET</h1>
-          <p>Exclusive & Regular Umrah Packages from Bangladesh</p>
+          <h1 className='text-4xl'>AIR TICKET</h1>
+          <p className='text-2xl'>Exclusive & Regular Umrah Packages from Bangladesh</p>
         </div>
       </div>
       </div>
