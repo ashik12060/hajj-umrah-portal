@@ -32,10 +32,10 @@ const UmrahPackage = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 hover:bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>
@@ -59,10 +59,10 @@ const UmrahPackage = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>
@@ -86,10 +86,10 @@ const UmrahPackage = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>
@@ -113,10 +113,10 @@ const UmrahPackage = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>

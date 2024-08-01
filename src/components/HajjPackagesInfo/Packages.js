@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import "./Packages.css";
 import hajj1 from "../../images/hajj1.jpeg";
@@ -30,10 +28,10 @@ const Packages = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 hover:bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>
@@ -57,10 +55,10 @@ const Packages = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>
@@ -84,10 +82,10 @@ const Packages = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>
@@ -111,10 +109,10 @@ const Packages = () => {
                 fulfilling pilgrimage.
               </p>
               <Link
-                to='/'
+                to='/contact'
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Read More →
+                Send Query →
               </Link>
             </div>
           </div>

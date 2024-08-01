@@ -60,7 +60,7 @@ const ContactLocation = () => {
                     className="text-2xl pe-4"
                     icon={faEnvelope}
                   />
-                  <p className="ml-2">info@zamzamtravelsbd.com</p>
+                  <p className="ml-2">info@something.com</p>
                 </div>
               </div>
             </div>

@@ -71,7 +71,7 @@ const AirTicket = () => {
 
       <p className="text-xl container mx-auto p-4 text-justify">
         Discover the most convenient and efficient way to book your air tickets
-        from Bangladesh with our expert advice. At Zamzam Travels BD, we excel
+        from Bangladesh with our expert advice. At Hena Travels and Tours, we excel
         in offering the best airfare deals and a wide range of flight options to
         match your preferences and budget. Whether you're organizing a business
         trip, family vacation, or solo adventure, we ensure a smooth booking
@@ -137,7 +137,7 @@ const AirTicket = () => {
         ongoing promotions and last-minute deals. For added convenience,
         subscribe to our newsletter for updates directly to your inbox.
         <br />
-        Start your next journey with confidence and ease with Zamzam Travels BD,
+        Start your next journey with confidence and ease with Hena Travels and Tours,
         your trusted partner for air tickets from Bangladesh. Contact our
         ticketing experts to explore your options and start planning your trip
         today. Safe travels, and we look forward to seeing you on board soon!

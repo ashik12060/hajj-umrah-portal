@@ -17,7 +17,7 @@ const ContacatInfo = () => {
         </p>
        
         <div className="flex justify-center gap-8">
-          <button className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+          <a href="mailto:someone@example.com" className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
             <span className="flex items-center gap-2">
               <svg
                 className="w-6 h-6"
@@ -35,7 +35,7 @@ const ContacatInfo = () => {
               </svg>
               CONTACT US
             </span>
-          </button>
+          </a>
           <button className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
             <span className="flex items-center gap-2">
               <svg

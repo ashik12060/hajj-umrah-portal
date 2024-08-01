@@ -11,7 +11,7 @@ const AboutUsPage = () => {
             Award Winning Hajj Agency in Dhaka, Bangladesh
           </h2>
           <p className="text-lg mb-4">
-            Noor Hajj & Umrah Bangladesh has different types of umrah packages
+          Hena Travels and Tours has different types of umrah packages
             like as Standard, Regular and Premium Hajj & Umrah packages. We are
             an award-winning agency, deals with Hajj & Umrah pilgrims with
             professionalism and fulfills all the promises attached to every
