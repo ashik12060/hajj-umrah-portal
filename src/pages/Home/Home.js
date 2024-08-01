@@ -27,7 +27,7 @@ const Home = () => {
             </h1>
           </div>
           <Packages  className='overflow-hidden'/>
-          <div className='text-center mt-6'>
+          <div className='text-center my-6'>
           <Link to='/hajj-packages' className=" bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
 
           
@@ -40,7 +40,7 @@ const Home = () => {
             </h1>
           </div>
           <UmrahPackage  className='overflow-hidden'/>
-          <div className='text-center mt-6'>
+          <div className='text-center my-6'>
           <Link to='/umrah-packages' className="bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
           </div>
         </div>

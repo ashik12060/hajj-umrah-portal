@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import './Carousel.css'; // Add this for custom CSS
 import hajjCarousel from '../../images/Hajj-carousel.jpg'
 import umrahCarousel from '../../images/umrah-carousel.jpg'
-import image1 from '../../images/cover.jpg';
+import hotelCarousel from '../../images/hotelCarousel.jpg'
+import airCarousel from '../../images/airCarousel.jpg'
 import { Link } from 'react-router-dom';
 
 const images = [
-  { id: 1, src: hajjCarousel, alt: 'Hajj Carousel', text: 'Book Your', text2:' Hajj Package', text3:'in Hena Tavels And Tours', buttonText: 'Book Now', buttonLink: '/hajj' },
-  { id: 2, src: umrahCarousel, alt: 'Umrah Carousel', text: 'Umrah Package', buttonText: 'Learn More', buttonLink: '/umrah' },
-  { id: 3, src: image1, alt: 'Cover Image 1', text: 'Special Offer', buttonText: 'Buy Now', buttonLink: '/special-offer' },
-  { id: 4, src: image1, alt: 'Cover Image 2', text: 'New Destinations', buttonText: 'Explore', buttonLink: '/destinations' },
+  { id: 1, src: hajjCarousel, alt: 'Hajj Carousel', text: 'Book Your', text2:' Hajj Package', text3:'in Hena Tavels And Tours', buttonText: 'Book Now', buttonLink: '/hajj-packages' },
+  { id: 2, src: umrahCarousel, alt: 'Umrah Carousel', text: 'Book Your', text2:' Umrah Package', text3:'in Hena Tavels And Tours', buttonText: 'Book Now', buttonText: 'Learn More', buttonLink: '/umrah-packages' },
+  { id: 3, src: hotelCarousel, alt: 'Cover Image 1',  text: 'Seamless hotel booking', text2:'Services', text3:'Your comfort is our priority.!', buttonText: 'Contact Now', buttonLink: '/contact' },
+  { id: 4, src: airCarousel, alt: 'Cover Image 2',  text: 'Ticket and Visa ', text2:'Services', text3:'Empower your dreams to take flight!', buttonText: 'Explore', buttonLink: '/visa-process' },
 ];
 
 const Carousel = () => {
@@ -39,10 +40,10 @@ const Carousel = () => {
               <p>{image.text2}</p>
               <p>{image.text3}</p>
               
-              <Link to='/hajj-packages' className='mt-4'>
-              <a href={image.buttonLink} className="mt-4 ms-3 bg-white  border hover:bg-green-800 hover:text-white hover:border hover:border-white hover:text-green-800 text-green-800 font-bold py-3 px-5 rounded-full text-center">
+              
+              <Link to={image.buttonLink} className="mt-4 ms-3 bg-white  border hover:bg-green-800 hover:text-white hover:border hover:border-white hover:text-green-800 text-green-800 font-bold py-3 px-5 rounded-full text-center">
                 {image.buttonText}
-              </a>
+             
               </Link>
             </div>
           </div>
@@ -66,7 +67,7 @@ const Carousel = () => {
         {images.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-gray-800' : 'bg-gray-400'}`}
+            className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-green-800' : 'bg-gray-100'}`}
             onClick={() => setCurrentIndex(index)}
           />
         ))}
@@ -76,3 +77,6 @@ const Carousel = () => {
 };
 
 export default Carousel;
+
+
+

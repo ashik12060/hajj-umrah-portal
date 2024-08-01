@@ -197,7 +197,7 @@ function Header() {
         >
           <Link
             to="/"
-            className=" text-gray-600 hover:text-gray-900 font-bold lg:mr-6 md:mr-4 mr-2 block lg:inline-block mb-2 md:mb-0"
+            className=" text-green-800 hover:text-gray-900 font-bold lg:mr-6 md:mr-4 mr-2 block lg:inline-block mb-2 md:mb-0"
           >
             Home
           </Link>

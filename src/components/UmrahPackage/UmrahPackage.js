@@ -1,6 +1,9 @@
 import React from "react";
 import "./UmrahPackage.css";
-import cardImage1 from "../../images/cover.jpg";
+import umrah1 from "../../images/umrah.jpeg";
+import umrah2 from "../../images/umrah.jpg";
+import umrah3 from "../../images/umrah2.jpeg";
+import umrah4 from "../../images/umrah3.jpeg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
@@ -12,11 +15,11 @@ const UmrahPackage = () => {
     <div className="container mx-auto p-2">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white rounded-lg border shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={umrah1}
               alt="Umrah Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full border  h-52 rounded-t-lg"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
@@ -39,11 +42,11 @@ const UmrahPackage = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white rounded-lg border shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={umrah2}
               alt="Umrah Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full border  h-52 rounded-t-lg"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
@@ -66,11 +69,11 @@ const UmrahPackage = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white rounded-lg border shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={umrah3}
               alt="Umrah Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full border  h-52 rounded-t-lg"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
@@ -93,11 +96,11 @@ const UmrahPackage = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white rounded-lg border shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={umrah4}
               alt="Umrah Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full border  h-52 rounded-t-lg"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">

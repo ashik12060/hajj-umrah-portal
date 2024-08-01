@@ -5,7 +5,7 @@ import React from 'react';
 
 const SocialMediaButton = () => {
   return (
-    <div className="fixed top-1/2 transform -translate-y-1/2 space-y-1 bg-black py-2 rounded ">
+    <div className="fixed top-1/2 transform -translate-y-1/2 space-y-1 bg-green-900 py-2  ">
       <a
         href="https://www.facebook.com"
         target="_blank"

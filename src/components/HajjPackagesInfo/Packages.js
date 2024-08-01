@@ -2,7 +2,10 @@
 
 import React from "react";
 import "./Packages.css";
-import cardImage1 from "../../images/cover.jpg";
+import hajj1 from "../../images/hajj1.jpeg";
+import hajj2 from "../../images/hajj2.jp3.jpg";
+import hajj3 from "../../images/hajj2.jpg";
+import hajj4 from "../../images/hajj.jpg";
 import { Link } from "react-router-dom";
 
 const Packages = () => {
@@ -10,11 +13,11 @@ const Packages = () => {
     <div className="container mx-auto p-2">
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white border rounded-lg shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={hajj1}
               alt="Hajj Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full h-52 rounded-t-lg border"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
@@ -37,11 +40,11 @@ const Packages = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white rounded-lg border shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={hajj2}
               alt="Hajj Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full h-52 rounded-t-lg border"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
@@ -64,11 +67,11 @@ const Packages = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white border rounded-lg shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={hajj3}
               alt="Hajj Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full h-52 rounded-t-lg border"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
@@ -91,11 +94,11 @@ const Packages = () => {
         </div>
 
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
-          <div className="bg-white rounded-lg shadow-md flex flex-col h-full">
+          <div className="bg-white border rounded-lg shadow-md flex flex-col h-full">
             <img
-              src={cardImage1}
+              src={hajj4}
               alt="Hajj Package Image"
-              className="w-full rounded-t-lg"
+              className="w-full h-52 rounded-t-lg border"
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
