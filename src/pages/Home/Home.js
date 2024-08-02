@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className='overflow-hidden'>
       
-        <Header />
+        <Header  className='overflow-hidden'/>
        <div className='pt-20 overflow-hidden'>
        <Carousel className='overflow-hidden'/>
        </div>

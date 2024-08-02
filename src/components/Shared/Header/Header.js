@@ -15,15 +15,15 @@ function Header() {
         <div className="flex items-center  w-full lg:w-auto">
           <h1 className="ml-4 text-2xl lg:text-3xl md:text-xl font-bold">
           <Link to='/'>
-            <img className="w-32" src={henaTours} alt="hena tours logo" />
+            <img className="w-24" src={henaTours} alt="hena tours logo" />
           </Link>
           </h1>
         </div>
 
-        <div className="lg:hidden md:hidden flex w-full justify-start items-center ms-5">
+        <div className="lg:hidden md:hidden flex w-full justify-start items-center ms-5 pb-2">
           <button
             onClick={toggleMenu}
-            className="bg-green-800 hover:bg-green-700 text-white hover:text-gray-200"
+            className="bg-green-800 hover:bg-green-700 text-white hover:text-gray-200 "
           >
             <svg
               className="w-6 h-6 border "

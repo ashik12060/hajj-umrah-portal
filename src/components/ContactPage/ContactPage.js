@@ -6,7 +6,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import Header from "../../components/Shared/Header/Header";
-import img from "../../images/cover.jpg";
+import img from "../../images/contact.jpg";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -38,9 +38,9 @@ const ContactPage = () => {
 
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <img className="w-full rounded" src={img} alt="Contact" />
+            <img className="w-full rounded px-20" src={img} alt="Contact" />
           </div>
-          <div className="w-full lg:w-1/2 p-4 lg:ps-20">
+          <div className="w-full lg:w-1/2 pt-4 lg:ps-20">
             <form
               onSubmit={handleSubmit}
               className="bg-slate-200 shadow-md rounded px-4 pt-6 pb-8 mb-4"

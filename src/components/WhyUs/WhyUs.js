@@ -23,7 +23,7 @@ function WhyUs() {
             </svg>
           </div>
           <h3 className="text-xl font-bold mb-2">Cheap Rates</h3>
-          <p className="text-gray-700 text-base">
+          <p className="text-gray-700 text-base text-justify">
             Guaranteed best prices. We believe in providing the opportunity of Hajj &
             Umrah to every believing Muslim in the Bangladesh within their
             budget. We deliver what have been promised & take serving the guests
@@ -54,7 +54,7 @@ function WhyUs() {
             </svg>
           </div>
           <h3 className="text-xl font-bold mb-2">Discount Offers</h3>
-          <p className="text-gray-700 text-base">
+          <p className="text-gray-700 text-base text-justify">
             Special offers on Umrah & other itineraries for students, old-aged
             persons, groups, and young couples in specific times of the year so
             that everyone can get the best Hajj & Umrah deals according to
@@ -79,7 +79,7 @@ function WhyUs() {
             </svg>
           </div>
           <h3 className="text-xl font-bold mb-2">Trust & Safety</h3>
-          <p className="text-gray-700 text-base">
+          <p className="text-gray-700 text-base text-justify">
             We are the #1 trusted platform across the Bangladesh, with a vast
             number of happy customers. We always keep a check on potential
             issues, solving all problems, and providing a flawless pilgrimage
