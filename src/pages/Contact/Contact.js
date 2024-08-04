@@ -10,7 +10,7 @@ function Contact() {
   
 
   return (
-    <div>
+    <div className="overflow-hidden">
       
       <Header />
       <ContactCover />

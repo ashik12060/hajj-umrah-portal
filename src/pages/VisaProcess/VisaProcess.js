@@ -20,7 +20,7 @@ const VisaProcess = () => {
   return (
     <div>
       <Header />
-      <div className="pt-20">
+      <div className="pt-20 ">
       <div className="cover-photo-container">
         <img src={coverImage} alt="Cover" className="cover-image" />
         <div className="cover-text">
@@ -30,11 +30,11 @@ const VisaProcess = () => {
       </div>
       </div>
 
-      <h1 className="text-2xl font-bold mb-4 text-color-custom container mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4 text-color-custom container   mx-auto p-4">
         Easily Obtain a Saudi Arabian Visa from Bangladesh through the Ministry
         of Foreign Affairs (MoFA)
       </h1>
-      <p className="text-xl container mx-auto p-4">
+      <p className="text-xl container mx-auto  p-4">
         Our primary goal, especially for Hajj and Umrah pilgrimages, is to
         provide our customers with a spiritually, mentally, and physically
         fulfilling experience within their budget through affordable packages.
@@ -66,7 +66,7 @@ const VisaProcess = () => {
       <div className="container mx-auto p-4">
       <h2 className="text-2xl font-bold mb-4 text-color-custom">How to Obtain Your MoFA Visa</h2>
 
-      <ol className="list-decimal pl-6 text-xl">
+      <ol className="list-decimal pl-6 text-xl  ">
         <li className="mb-4">
           Begin by applying online or booking your flight, transportation, and accommodation in Mecca and Medina. Payment must be made before departure.
         </li>
@@ -85,19 +85,19 @@ const VisaProcess = () => {
         For package details, simply send us a message, and we'll respond promptly, In Sha Allah.
       </p>
 
-      <p className="mb-4 text-xl">
+      <p className="mb-4 text-xl ">
         Please note that fields marked with (*) are mandatory.If traveling with family, you must enter and leave the Saudi Empire together.  For further information or assistance, feel free to contact us via phone or email.
       </p>
 
      
 
-      <p className="mb-4">
+      <p className="mb-4 ">
         <i>We're committed to providing you with an exceptional Hajj experience this year. Reach out to us today to join the best Hajj group.</i>
       </p>
 
       <h2 className="text-2xl font-bold mb-4 text-color-custom">Checking Your MoFA Visa Status</h2>
 
-      <p className="mb-4 text-xl">
+      <p className="mb-4 text-xl ">
         If the status remains unchanged from your initial submission, please check again later. If you see a message in red, refer to the "Status meanings of family visit visa." To inquire about a visa issued by MoFA, enter the Visa Number, Iqama Number, and Captcha code on the website.
       </p>
     </div>
