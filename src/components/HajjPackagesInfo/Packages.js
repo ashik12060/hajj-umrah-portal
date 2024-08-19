@@ -19,19 +19,19 @@ const Packages = () => {
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
-                Regular Hajj Package A
+                রেগুলার হজ্জ প্যাকেজ এ
               </h3>
               <p className="text-gray-600 text-sm my-4">
-                Explore the spiritual journey with our Regular Hajj Package,
-                offering 35-40 days of comprehensive services, including
-                Economy to Standard hotel stays, starting at BDT 600,000 for a
-                fulfilling pilgrimage.
+                আমাদের নিয়মিত হজ প্যাকেজের মাধ্যমে আধ্যাত্মিক যাত্রা অন্বেষণ
+                করুন, 35-40 দিনের ব্যাপক পরিষেবা প্রদান করে, সহ ইকোনমি থেকে
+                স্ট্যান্ডার্ড হোটেলে থাকার জন্য 600,000 টাকা থেকে শুরু হয়
+                পরিপূর্ণ তীর্থযাত্রা।
               </p>
               <Link
-                to='/contact'
+                to="/contact"
                 className="bg-green-800 hover:bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Send Query →
+                কোয়েরি পাঠান →
               </Link>
             </div>
           </div>
@@ -46,19 +46,19 @@ const Packages = () => {
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
-                Regular Hajj Package B
+                রেগুলার হজ্জ প্যাকেজ বি
               </h3>
               <p className="text-gray-600 text-sm my-4">
-                Explore the spiritual journey with our Regular Hajj Package,
-                offering 35-40 days of comprehensive services, including
-                Economy to Standard hotel stays, starting at BDT 600,000 for a
-                fulfilling pilgrimage.
+                আমাদের নিয়মিত হজ প্যাকেজের সাথে একটি আধ্যাত্মিক যাত্রা শুরু
+                করুন, যেখানে 35-40 দিনের সব-সমেত পরিষেবা রয়েছে। অর্থপূর্ণ
+                তীর্থযাত্রার জন্য মূল্য 600,000 টাকা থেকে শুরু করে ইকোনমি থেকে
+                স্ট্যান্ডার্ড হোটেল পর্যন্ত থাকার ব্যবস্থা উপভোগ করুন।
               </p>
               <Link
-                to='/contact'
+                to="/contact"
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Send Query →
+               কোয়েরি পাঠান →
               </Link>
             </div>
           </div>
@@ -73,19 +73,19 @@ const Packages = () => {
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
-                Regular Hajj Package C
+              রেগুলার হজ্জ প্যাকেজ সি 
               </h3>
               <p className="text-gray-600 text-sm my-4">
-                Explore the spiritual journey with our Regular Hajj Package,
-                offering 35-40 days of comprehensive services, including
-                Economy to Standard hotel stays, starting at BDT 600,000 for a
-                fulfilling pilgrimage.
+              আমাদের নিয়মিত হজ প্যাকেজের সাথে একটি আধ্যাত্মিক যাত্রা শুরু
+                করুন, যেখানে 35-40 দিনের সব-সমেত পরিষেবা রয়েছে। অর্থপূর্ণ
+                তীর্থযাত্রার জন্য মূল্য 600,000 টাকা থেকে শুরু করে ইকোনমি থেকে
+                স্ট্যান্ডার্ড হোটেল পর্যন্ত থাকার ব্যবস্থা উপভোগ করুন।
               </p>
               <Link
-                to='/contact'
+                to="/contact"
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Send Query →
+               কোয়েরি পাঠান →
               </Link>
             </div>
           </div>
@@ -100,19 +100,19 @@ const Packages = () => {
             />
             <div className="p-4 flex-grow">
               <h3 className="text-xl font-bold text-gray-800">
-                Regular Hajj Package D
+              রেগুলার হজ্জ প্যাকেজ ডি 
               </h3>
               <p className="text-gray-600 text-sm my-4">
-                Explore the spiritual journey with our Regular Hajj Package,
-                offering 35-40 days of comprehensive services, including
-                Economy to Standard hotel stays, starting at BDT 600,000 for a
-                fulfilling pilgrimage.
+              আমাদের নিয়মিত হজ প্যাকেজের সাথে একটি আধ্যাত্মিক যাত্রা শুরু
+                করুন, যেখানে 35-40 দিনের সব-সমেত পরিষেবা রয়েছে। অর্থপূর্ণ
+                তীর্থযাত্রার জন্য মূল্য 600,000 টাকা থেকে শুরু করে ইকোনমি থেকে
+                স্ট্যান্ডার্ড হোটেল পর্যন্ত থাকার ব্যবস্থা উপভোগ করুন।
               </p>
               <Link
-                to='/contact'
+                to="/contact"
                 className="bg-green-800 text-white font-bold py-2 my-6 px-4 rounded mt-auto"
               >
-                Send Query →
+               কোয়েরি পাঠান →
               </Link>
             </div>
           </div>

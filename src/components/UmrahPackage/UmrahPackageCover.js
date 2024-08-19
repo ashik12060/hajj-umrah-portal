@@ -7,8 +7,9 @@ const UmrahPackageCover = () => {
     <div className="cover-photo-container">
       <img src={coverImage} alt="Cover" className="cover-image" />
       <div className="cover-text">
-        <h1  className='text-4xl'>Welcome to Umrah Portal</h1>
-        <p className='text-2xl'>Exclusive & Regular Umrah Packages from Bangladesh
+        <h1  className='text-4xl'>
+        ওমরাহ পোর্টালে স্বাগতম</h1>
+        <p className='text-2xl'>বাংলাদেশ থেকে এক্সক্লুসিভ এবং নিয়মিত ওমরাহ প্যাকেজ
         </p>
       </div>
     </div>

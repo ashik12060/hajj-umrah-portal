@@ -1,20 +1,20 @@
 import React from "react";
-import "./VisaProcess.css"; // Import your CSS file for custom styling
-import coverImage from "../../images//airCarousel.jpg"; // Replace with your actual image path
+import "./VisaProcess.css"; 
+import coverImage from "../../images//airCarousel.jpg"; 
 import Header from "../../components/Shared/Header/Header";
 import Footer from "../../components/Shared/Footer/Footer";
 import { Link } from "react-router-dom";
-import { faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 const VisaProcess = () => {
   const requirements = [
-    "Original passport",
-    "SMART Card / NID Card",
-    "Current and previous passports",
-    "Two photographs",
-    "Confirmation page of the online submitted Form DS-160",
-    "Visa fees",
-    "Original interview appointment letter and a copy",
+    "আসল পাসপোর্ট",
+    "স্মার্ট কার্ড/এনআইডি কার্ড",
+    "বর্তমান এবং পূর্ববর্তী পাসপোর্ট",
+    "দুটি ছবি",
+    "অনলাইন জমা দেওয়া ফর্ম DS-160 এর নিশ্চিতকরণ পৃষ্ঠা",
+    "ভিসা ফি",
+    "মূল সাক্ষাৎকারের নিয়োগপত্র এবং একটি কপি",
   ];
 
   return (
@@ -24,36 +24,26 @@ const VisaProcess = () => {
       <div className="cover-photo-container">
         <img src={coverImage} alt="Cover" className="cover-image" />
         <div className="cover-text">
-          <h1  className='text-4xl'>VISA PROCESSING</h1>
-          <p  className='text-2xl'>Exclusive & Regular Umrah Packages from Bangladesh</p>
+          <h1  className='text-4xl'>ভিসা প্রোসেসিং </h1>
+          <p  className='text-2xl'> প্রিমিয়াম ও স্ট্যান্ডার্ড ওমরাহ প্যাকেজ
+          </p>
         </div>
       </div>
       </div>
 
-      <h1 className="text-2xl font-bold mb-4 text-color-custom container   mx-auto p-4">
-        Easily Obtain a Saudi Arabian Visa from Bangladesh through the Ministry
-        of Foreign Affairs (MoFA)
+      <h1 className="text-2xl font-buld mb-4 text-culor-custom container   mx-auto p-4">
+      পররাষ্ট্র মন্ত্রণালয়ের (MoFA) মাধ্যমে অনায়াসে বাংলাদেশ থেকে সৌদি আরবের ভিসা নিশ্চিত করুন।
+
       </h1>
       <p className="text-xl container mx-auto  p-4">
-        Our primary goal, especially for Hajj and Umrah pilgrimages, is to
-        provide our customers with a spiritually, mentally, and physically
-        fulfilling experience within their budget through affordable packages.
-        To achieve this, we offer exceptional value in various services such as
-        visa processing, travel arrangements, accommodation, and hotel bookings
-        at the lowest possible rates. In our country, it's common for many
-        pilgrims to miss their desired Hajj and Umrah timings due to a lack of
-        proper procedures. There's no need to worry about your visa, as The Holy
-        Hajj & Travel Agency is well-versed in applying for and securing
-        hassle-free visas according to the latest regulations. These regulations
-        stipulate that a visa is only granted once your Saudi accommodation and
-        transportation arrangements are finalized. We are affiliated with the
-        Ministry of Hajj and Umrah, Saudi Arabia, ensuring a smooth and
-        efficient process.
+      হজ এবং ওমরাহ তীর্থযাত্রার জন্য আমাদের প্রধান লক্ষ্য হল সাশ্রয়ী মূল্যের প্যাকেজের মাধ্যমে আমাদের গ্রাহকদের বাজেটের মধ্যে একটি আধ্যাত্মিক, মানসিক এবং শারীরিকভাবে সমৃদ্ধ অভিজ্ঞতা প্রদান করা। আমরা ভিসা প্রসেসিং, ভ্রমণের ব্যবস্থা, বাসস্থান এবং হোটেল বুকিংয়ের মতো পরিষেবাগুলিতে সেরা মূল্য প্রদান করি। আমাদের দেশের অনেক তীর্থযাত্রী প্রায়শই পদ্ধতিগত সমস্যার কারণে তাদের পছন্দের হজ এবং ওমরার সময় মিস করেন। যাইহোক, The Huly Hajj & Travel Agency এর সাথে, আপনি নিশ্চিন্ত থাকতে পারেন। আমরা সর্বশেষ প্রবিধান অনুযায়ী ঝামেলা-মুক্ত ভিসা পেতে অভিজ্ঞ, যার জন্য আপনার সৌদি বাসস্থান এবং পরিবহন ব্যবস্থা নিশ্চিত হওয়ার পরেই একটি ভিসা জারি করা প্রয়োজন। সৌদি আরবের হজ ও ওমরাহ মন্ত্রণালয়ের সাথে আমাদের অধিভুক্তি একটি মসৃণ এবং দক্ষ প্রক্রিয়ার নিশ্চয়তা দেয়।
+
       </p>
 
     
       <div className="container mx-auto p-4">
-        <h2 className="text-2xl font-bold mb-4 text-color-custom">Visa Requirements</h2>
+        <h2 className="text-2xl font-buld mb-4 text-culor-custom">ভিসার প্রয়োজনীয়তা
+        </h2>
         <ul className="list-disc pl-6 text-xl">
           {requirements.map((requirement, index) => (
             <li key={index} className="mb-2">
@@ -64,45 +54,54 @@ const VisaProcess = () => {
       </div>
 
       <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4 text-color-custom">How to Obtain Your MoFA Visa</h2>
+      <h2 className="text-2xl font-buld mb-4 text-culor-custom">কিভাবে আপনার MoFA ভিসা পাবেন
+      </h2>
 
-      <ol className="list-decimal pl-6 text-xl  ">
+      <ol className="list-disc pl-6 text-xl  ">
         <li className="mb-4">
-          Begin by applying online or booking your flight, transportation, and accommodation in Mecca and Medina. Payment must be made before departure.
+        অনলাইনে আবেদন করে বা মক্কা ও মদিনায় আপনার ফ্লাইট, পরিবহন এবং বাসস্থান বুকিং দিয়ে শুরু করুন। নিশ্চিত করুন যে প্রস্থানের আগে পেমেন্ট সম্পূর্ণ হয়েছে।
+
         </li>
         <li className="mb-4">
-          Our agents will submit your details, proof of payment, and itinerary to the Saudi Embassy for verification.
+        আমাদের এজেন্ট আপনার বিশদ বিবরণ, অর্থপ্রদানের প্রমাণ এবং সফরসূচী যাচাইয়ের জন্য সৌদি দূতাবাসে জমা দেবে।
+
         </li>
         <li className="mb-4">
-          Once satisfied, the Saudi Embassy typically issues a visa within 2 months.
+        একবার সন্তুষ্ট হলে, সৌদি দূতাবাস সাধারণত 2 মাসের মধ্যে ভিসা জারি করে।
         </li>
         <li className="mb-4">
-          You will receive contact details for our agents in Mecca and Medina to ensure a safe journey.
+        নিরাপদ যাত্রা নিশ্চিত করতে আপনি মক্কা ও মদিনায় আমাদের এজেন্টদের যোগাযোগের বিশদ বিবরণ পাবেন।
+
         </li>
       </ol>
 
       <p className="mb-4 text-xl">
-        For package details, simply send us a message, and we'll respond promptly, In Sha Allah.
+      প্যাকেজের বিশদ বিবরণের জন্য, কেবল আমাদের একটি বার্তা পাঠান, এবং আমরা অবিলম্বে প্রতিক্রিয়া জানাব, ইন শা আল্লাহ।
       </p>
 
       <p className="mb-4 text-xl ">
-        Please note that fields marked with (*) are mandatory.If traveling with family, you must enter and leave the Saudi Empire together.  For further information or assistance, feel free to contact us via phone or email.
+      অনুগ্রহ করে মনে রাখবেন যে (*) দ্বারা চিহ্নিত ক্ষেত্রগুলি বাধ্যতামূলক৷ যদি পরিবারের সাথে ভ্রমণ করেন তবে আপনাকে অবশ্যই সৌদি সাম্রাজ্যের সাথে প্রবেশ করতে হবে এবং ছেড়ে যেতে হবে৷  আরও তথ্য বা সহায়তার জন্য, ফোন বা ইমেলের মাধ্যমে আমাদের সাথে নির্দ্বিধায় যোগাযোগ করুন।
+
       </p>
 
      
 
       <p className="mb-4 ">
-        <i>We're committed to providing you with an exceptional Hajj experience this year. Reach out to us today to join the best Hajj group.</i>
+        <i>আমরা এই বছর আপনাকে একটি ব্যতিক্রমী হজের অভিজ্ঞতা দিতে প্রতিশ্রুতিবদ্ধ। সেরা হজ গ্রুপে যোগ দিতে আজই আমাদের সাথে যোগাযোগ করুন।
+        </i>
       </p>
 
-      <h2 className="text-2xl font-bold mb-4 text-color-custom">Checking Your MoFA Visa Status</h2>
+      <h2 className="text-2xl font-buld mb-4 text-culor-custom">আপনার MoFA ভিসার স্থিতি পরীক্ষা করা হচ্ছে
+      </h2>
 
       <p className="mb-4 text-xl ">
-        If the status remains unchanged from your initial submission, please check again later. If you see a message in red, refer to the "Status meanings of family visit visa." To inquire about a visa issued by MoFA, enter the Visa Number, Iqama Number, and Captcha code on the website.
+      যদি আপনার প্রাথমিক জমা থেকে স্থিতি অপরিবর্তিত থাকে, অনুগ্রহ করে পরে আবার চেক করুন। আপনি যদি লাল রঙে একটি বার্তা দেখতে পান, তাহলে "পরিবার ভিসা ভিসার স্থিতির অর্থ" পড়ুন। MoFA দ্বারা জারি করা ভিসা সম্পর্কে অনুসন্ধান করতে, ওয়েবসাইটে ভিসা নম্বর, ইকামা নম্বর এবং ক্যাপচা কোড লিখুন।
+
       </p>
     </div>
     <div className="text-center mb-10">
-    <Link to='/contact' className="bg-green-800 hover:bg-green-800 text-white font-bold py-4 my-6 px-4 rounded mt-auto">Need Help <FontAwesomeIcon icon={faCircleQuestion} /></Link>
+    <Link to='/contact' className="bg-green-800 hover:bg-green-800 text-white font-buld py-4 my-6 px-4 rounded mt-auto">সাহায্য প্রয়োজন
+    <FontAwesomeIcon icon={faCircleQuestion} /></Link>
     
     </div>
     

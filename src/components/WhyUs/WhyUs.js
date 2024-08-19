@@ -3,7 +3,7 @@ import React from 'react';
 function WhyUs() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold text-center mb-8">Why Us</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">কেন আমাদের থেকে সার্ভিস নিবেন</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-slate-200 rounded-lg shadow-md p-6">
           <div className="flex items-center justify-center mb-4">
@@ -22,12 +22,10 @@ function WhyUs() {
               />
             </svg>
           </div>
-          <h3 className="text-xl font-bold mb-2">Cheap Rates</h3>
+          <h3 className="text-xl font-bold mb-2">সুলভ মূল্য
+          </h3>
           <p className="text-gray-700 text-base text-justify">
-            Guaranteed best prices. We believe in providing the opportunity of Hajj &
-            Umrah to every believing Muslim in the Bangladesh within their
-            budget. We deliver what have been promised & take serving the guests
-            of Allah as an honor.
+          গ্যারান্টিযুক্ত সেরা দাম। আমরা তাদের বাজেটের মধ্যে বাংলাদেশের প্রতিটি মুমিন মুসলমানকে হজ ও ওমরাহর সুযোগ দিতে প্রতিশ্রুতিবদ্ধ। আমরা আমাদের প্রতিশ্রুতি পূরণ করি এবং আল্লাহর মেহমানদের সেবা করাকে সম্মানের বিষয় মনে করি।
           </p>
         </div>
         <div className="bg-slate-200 rounded-lg shadow-md p-6">
@@ -53,12 +51,10 @@ function WhyUs() {
               />
             </svg>
           </div>
-          <h3 className="text-xl font-bold mb-2">Discount Offers</h3>
+          <h3 className="text-xl font-bold mb-2">ডিসকাউন্ট অফার
+          </h3>
           <p className="text-gray-700 text-base text-justify">
-            Special offers on Umrah & other itineraries for students, old-aged
-            persons, groups, and young couples in specific times of the year so
-            that everyone can get the best Hajj & Umrah deals according to
-            their budget.
+          আমরা বছরের নির্দিষ্ট সময়ে ছাত্র, বয়স্ক, গোষ্ঠী এবং তরুণ দম্পতিদের জন্য ওমরাহ এবং অন্যান্য ভ্রমণপথে বিশেষ ডিল অফার করি, যাতে প্রত্যেকে তাদের বাজেটের মধ্যে সেরা হজ এবং ওমরাহ প্যাকেজ খুঁজে পেতে পারে।
           </p>
         </div>
         <div className="bg-slate-200 rounded-lg shadow-md p-6">
@@ -78,12 +74,10 @@ function WhyUs() {
               />
             </svg>
           </div>
-          <h3 className="text-xl font-bold mb-2">Trust & Safety</h3>
+          <h3 className="text-xl font-bold mb-2">আস্থা ও নিরাপত্তা
+          </h3>
           <p className="text-gray-700 text-base text-justify">
-            We are the #1 trusted platform across the Bangladesh, with a vast
-            number of happy customers. We always keep a check on potential
-            issues, solving all problems, and providing a flawless pilgrimage
-            experience to every client.
+          বিপুল সংখ্যক সন্তুষ্ট গ্রাহক নিয়ে আমরা বাংলাদেশের শীর্ষ বিশ্বস্ত প্ল্যাটফর্ম। আমরা সম্ভাব্য সমস্যাগুলির জন্য ধারাবাহিকভাবে পর্যবেক্ষণ করি, সমস্ত সমস্যার সমাধান করি এবং প্রতিটি ক্লায়েন্টের জন্য একটি নির্বিঘ্ন তীর্থযাত্রার অভিজ্ঞতা নিশ্চিত করি।
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ import UmrahPackage from '../../components/UmrahPackage/UmrahPackage'
 import ContacatInfo from '../../components/ContactPage/ContacatInfo'
 import AboutUsPage from '../../components/AboutUsPage/AboutUsPage'
 
-const Home = () => {
+const Home = () => { 
   return (
     <div className='overflow-hidden'>
       
@@ -23,12 +23,12 @@ const Home = () => {
         <CardGrid  className='overflow-hidden'/>
         <div className='overflow-hidden'>
           <div className='mt-20'>
-            <h1 className='text-center text-4xl font-bold'>BEST HAJJ PACKAGES FOR 2025-2026
+            <h1 className='text-center text-4xl font-bold'>2025-2026 এর জন্য সেরা হজ প্যাকেজ
             </h1>
           </div>
           <Packages  className='overflow-hidden'/>
           <div className='text-center my-6'>
-          <Link to='/hajj-packages' className=" bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+          <Link to='/hajj-packages' className=" bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">আরো দেখুন<FontAwesomeIcon icon={faAnglesRight} /></Link>
 
           
           </div>
@@ -36,12 +36,13 @@ const Home = () => {
 
         <div className='overflow-hidden'>
           <div className='mt-20'>
-            <h1 className='text-center text-4xl font-bold'>BEST UMRAH PACKAGES FOR 2025-2026
+            <h1 className='text-center text-4xl font-bold'>2025-2026 এর জন্য সেরা ওমরাহ প্যাকেজ
+
             </h1>
           </div>
           <UmrahPackage  className='overflow-hidden'/>
           <div className='text-center my-6'>
-          <Link to='/umrah-packages' className="bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">See More <FontAwesomeIcon icon={faAnglesRight} /></Link>
+          <Link to='/umrah-packages' className="bg-white border border-green-800 text-green-800 font-bold py-4 my-6 px-4 rounded mt-auto">আরো দেখুন <FontAwesomeIcon icon={faAnglesRight} /></Link>
           </div>
         </div>
         <AboutUsPage  className='overflow-hidden'/>

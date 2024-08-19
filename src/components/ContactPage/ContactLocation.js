@@ -17,13 +17,14 @@ const ContactLocation = () => {
     <div className="p-4 mt-20">
       
       <div class="text-center">
-        <span className="px-4 py-2 text-4xl font-bold rounded">Our Location</span>
+        <span className="px-4 py-2 text-4xl font-bold rounded">আমাদের লোকেশন </span>
       </div>
 
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 p-4">
           <span className="text-xl px-1 py-1  bg-orange-500 text-white rounded">
-            Find Us Here <FontAwesomeIcon icon={faTurnDown} />
+          আমাদের এখানে খুঁজুন
+          <FontAwesomeIcon icon={faTurnDown} />
           </span>
           <div className="mt-2">
             <iframe
@@ -40,20 +41,21 @@ const ContactLocation = () => {
           <div className=" min-h-screen py-8">
             <div className="container mx-auto px-4">
               <div className="bg-slate-100 rounded-lg shadow-md p-6 py-6">
-                <h2 className="text-2xl font-bold mb-6">Corporate Office</h2>
+                <h2 className="text-2xl font-bold mb-6">কর্পোরেট অফিস </h2>
                 <div className="flex items-center mb-6">
                   <FontAwesomeIcon
                     className="text-2xl pe-4"
                     icon={faLocationDot}
                   />
                   <p className="ml-2">
-                    32, Purana Paltan, Sultan Ahmad Plaza, (East side Of Paltan
-                    Mosque), 11th Floor (Suite-1202), Dhaka-1000
+                    
+পুরানা পল্টন, সুলতান আহমেদ প্লাজা, (পল্টনের পূর্ব দিকে
+                    মসজিদ), ঢাকা-1000
                   </p>
                 </div>
                 <div className="flex items-center mb-6">
                   <FontAwesomeIcon className="text-2xl pe-4" icon={faPhone} />
-                  <p className="ml-2">+88017-33391826, +88017-05401060</p>
+                  <p className="ml-2">+১২৩৪৫৬৭৮৯, +৯৮৭৬৫৪৩২১</p>
                 </div>
                 <div className="flex items-center mb-6">
                   <FontAwesomeIcon
@@ -66,7 +68,7 @@ const ContactLocation = () => {
             </div>
             <div className="flex items-start justify-start ps-4 mt-8">
               <p className="text-gray-700 text-medium font-bold">
-                Connect our social networks
+              আমাদের সামাজিক নেটওয়ার্ক সংযুক্ত করুন
               </p>
               <a
                 href="#"

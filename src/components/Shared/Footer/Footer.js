@@ -5,10 +5,10 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-400 body-font">
       <div className="container mx-auto py-24 flex flex-col md:flex-row md:flex-nowrap flex-wrap">
         <div className="w-full md:w-1/4 flex flex-col md:ml-auto md:mr-auto lg:ml-20 lg:mr-20 p-4">
-          <h2 className="text-white text-2xl font-medium title-font mb-2">Hena Travels and Tours</h2>
-          <p className="mb-4">0000 Purana Paltan, Sultan Ahmed Plaza 00th Floor, Suite-1202, Dhaka-1000</p>
+          <h2 className="text-white text-2xl font-medium title-font mb-2">হেনা ট্রাভেলস অ্যান্ড ট্যুরস</h2>
+          <p className="mb-4">0000 পুরানা পল্টন, সুলতান আহমেদ প্লাজা 00 তলা, স্যুট-0000, ঢাকা-1000</p>
           <div className="flex title-font font-medium items-center mt-4">
-            <span className="ml-3 text-lg">Follow Us</span>
+            <span className="ml-3 text-lg">অনুসরণ করুন</span>
           </div>
           <div className="mt-6 flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
@@ -43,51 +43,53 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/3 flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">OTHERS SERVICES</h2>
+            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">অন্যান্য সার্ভিসেস </h2>
             <nav className="list-none mb-10">
-              <li><a href="#" className="text-gray-400 hover:text-white">Umrah Package</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Hajj Package</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Terms & Conditions</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Hajj Training</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">B2B</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">উমরাহ্‌ প্যাকেজ</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">হজ্জ প্যাকেজ</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">শর্তাবলী</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">প্রাইভেসি পলিসি </a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">আমাদের সম্পর্কে </a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">হজ্জ ট্রেনিং </a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">বিটুবি </a></li>
             </nav>
           </div>
           <div className="w-full lg:w-1/2 p-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">IMPORTANT LINKS</h2>
+            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">গুরুত্বপূর্ণ লিংক</h2>
             <nav className="list-none mb-10">
-              <li><a href="#" className="text-gray-400 hover:text-white">Ministry of Hajj, Bangladesh</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Civil Aviation Authority</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">ATAB</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">HAAB</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Ministry of Hajj, KSA</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">NUSUK</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Umrah Visa Check</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">হজ মন্ত্রণালয়, বাংলাদেশ</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">
+              বেসামরিক বিমান চলাচল কর্তৃপক্ষ</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white"> এটিএবি </a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">এইচএএবি </a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">হজ মন্ত্রণালয়, কেএসএ</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">নুসুক</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">ওমরাহ ভিসা চেক</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">Corporate IT Support - Green Software Technology</a></li>
             </nav>
           </div>
         </div>
         <div className="w-full md:w-1/3 flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">SAUDI OFFICE</h2>
+            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">সৌদি অফিস
+            </h2>
             <nav className="list-none mb-10">
-              <li><a href="#" className="text-gray-400 hover:text-white">Al Maarefa Road, North Al Aziziyah, Makkah, Kingdom of Saudi Arabia.</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">+966 0123456789, +0123456789</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">আল মারেফা রোড, উত্তর আল আজিজিয়া, মক্কা, সৌদি আরব.</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">+৯৬৬৪৫৪৫৪৫, ++৯৬৬৪৫৪৫৪৫</a></li>
             </nav>
           </div>
           <div className="w-full lg:w-1/2
            p-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">Bangladesh OFFICE</h2>
+            <h2 className="title-font font-medium text-white tracking-widest text-lg mb-3">বাংলাদেশ অফিস</h2>
             <nav className="list-none mb-10">
-              <li><a href="#" className="text-gray-400 hover:text-white">123, Green Road, Kalabagan, Dhaka-1205</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">0123456789 0123456789</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">০০০, গ্রীন রোড, কলাবাগান, ঢাকা-1205</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">০১২৩৪৫৬৭৮৯, ০১৫৮৯৭৪৮৫১২৫১২১৫</a></li>
             </nav>
           </div>
         </div>
       </div>
     </footer>
-  );
+  ); 
 };
 
 export default Footer;

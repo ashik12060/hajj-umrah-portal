@@ -51,24 +51,28 @@ function Header() {
             to="/"
             className=" text-green-800 hover:text-gray-900 font-bold lg:mr-6 md:mr-4 mr-2 block lg:inline-block mb-2 md:mb-0"
           >
-            Home
+            {/* Home */}
+            হোম
           </Link>
           <Link
             to="/hajj-packages"
             className=" text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block mb-2 md:mb-0"
           >
-            Hajj Packages
+            {/* Hajj Packages */}
+            হজ্জ  প্যাকেজ
           </Link>
           <Link
             to="/umrah-packages"
             className=" text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block mb-2 md:mb-0"
           >
-            Umrah Packages
+            {/* Umrah Packages */}
+            উমরাহ্‌ প্যাকেজ
           </Link>
 
           <div className="relative inline-block text-left group mb-2 md:mb-0">
             <span className=" inline-flex justify-center items-center bg-white text-black lg:px-4 border border-transparent rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
-              Services
+              {/* Services */}
+              সার্ভিসেস
               <svg
                 className="w-4 h-4 ml-2 -mr-1"
                 fill="none"
@@ -97,28 +101,32 @@ function Header() {
                   className="block px-4 py-2 text-l text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
-                  Hajj Package
+                  {/* Hajj Package */}
+                  হজ্জ  প্যাকেজ
                 </Link>
                 <Link
                   to="/umrah-packages"
                   className="block px-4 py-2 text-l text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
-                  Umrah Package
+                  {/* Umrah Package */}
+                  উমরাহ্‌ প্যাকেজ
                 </Link>
                 <Link
                   to="/visa-process"
                   className="block px-4 py-2 text-l text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
-                  Visa Process
+                  {/* Visa Process */}
+                  ভিসা প্রসেস
                 </Link>
                 <Link
                   to="/air-ticket"
                   className="block px-4 py-2 text-l text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
-                  Air Ticket
+                  {/* Air Ticket */}
+                 এয়ার টিকেট
                 </Link>
               </div>
             </div>
@@ -128,19 +136,23 @@ function Header() {
             to="/about-us"
             className=" text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block lg:ps-5 mb-2 md:mb-0"
           >
-            About Us
+            {/* About Us */} 
+            আমাদের সম্পর্কে
           </Link>
           <Link
             to="/contact"
             className=" text-gray-600 hover:text-gray-900 font-medium lg:mr-6 md:mr-4 mr-2 block lg:inline-block mb-2 md:mb-0"
           >
-            Contact
+            {/* Contact */}
+            যোগাযোগ
           </Link>
           <Link
             to="/contact"
             className=" background-color lg:ms-3 border hover:bg-white hover:border hover:border-green-800 hover:text-green-800 text-white font-bold py-3 px-5 rounded-full text-center"
           >
-            Price Estimate
+            {/* Price Estimate */}
+            মূল্য অনুমান
+
           </Link>
         </nav>
       </div>

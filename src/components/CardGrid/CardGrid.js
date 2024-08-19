@@ -15,7 +15,7 @@ const CardGrid = () => {
           <div className="card">
             <img src={cardImage1} alt="Hajj Package Image" className="card-image" />
             <div className="card-text">
-              <Link to='/hajj-packages' className="text-2xl" >Hajj Packages</Link>
+              <Link to='/hajj-packages' className="text-2xl" >হজ্জ প্যাকেজ</Link>
             </div>
           </div>
         </div>
@@ -24,16 +24,16 @@ const CardGrid = () => {
           <div className="card">
             <img src={cardImage2} alt="Umrah Package Image" className="card-image" />
             <div className="card-text">
-              <Link to='/umrah-packages' className="text-2xl" >Umrah Packages</Link>
+              <Link to='/umrah-packages' className="text-2xl" >উমরাহ্‌ প্যাকেজ</Link>
             </div>
-          </div>
+          </div> 
         </div>
         
         <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
           <div className="card">
             <img src={cardImage3} alt="Visa Process Image" className="card-image" />
             <div className="card-text">
-              <Link to='/visa-process' className="text-2xl" >Visa Process</Link>
+              <Link to='/visa-process' className="text-2xl" >ভিসা প্রসেস</Link>
             </div>
           </div>
         </div>
@@ -42,12 +42,12 @@ const CardGrid = () => {
           <div className="card">
             <img src={cardImage4} alt="Air Ticket Image" className="card-image" />
             <div className="card-text">
-              <Link to='/air-ticket' className="text-2xl" >Air Ticket</Link>
+              <Link to='/air-ticket' className="text-2xl" >এয়ার টিকেট</Link>
             </div>
           </div>
         </div>
         
-      </div>
+      </div> 
     </div>
   );
 };

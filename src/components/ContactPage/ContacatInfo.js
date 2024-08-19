@@ -8,12 +8,11 @@ const ContacatInfo = () => {
       <div className="bg-gray-800 text-white p-8 text-center">
       <span><FontAwesomeIcon className="text-3xl text-orange-500" icon={faCircleNodes} /></span>
         <h1 className="text-4xl font-bold mb-4">
-          Contact Hena Travels and Tours!
+        হেনা ট্রাভেলস এন্ড ট্যুর এর সাথে যোগাযোগ করুন!
         </h1>
         
         <p className="text-lg mb-8">
-          Have an Idea or a Project, Let's Collaborate and Build Some Awesome
-          Stuff
+        একটি ধারণা বা প্রকল্প পেয়েছেন? আসুন একসাথে কাজ করি এবং আশ্চর্যজনক কিছু তৈরি করি!
         </p>
        
         <div className="flex justify-center gap-8">
@@ -33,7 +32,7 @@ const ContacatInfo = () => {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              CONTACT US
+              যোগাযোগ করুন 
             </span>
           </a>
           <button className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
@@ -52,7 +51,7 @@ const ContacatInfo = () => {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 00-5.516 5.517l-1.13-2.257a1 1 0 01-1.21-.502l4.493-1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1.28a2 2 0 01-2-2V7z"
                 />
               </svg>
-              +8801317424004
+              +৮৮০১২৩৪৫৬৭৮৯ 
             </span>
           </button>
         </div>
